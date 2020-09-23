@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: 18px sans-serif;
+        min-height: 100vh;
+      }
+      video {
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+      }
+      button {
+        background: rgba(0, 0, 0, 0.2);
+        color: white;
+        border: 2px solid white;
+        padding: 20px;
+        text-transform: uppercase;
+        font-size: 72px;
+        cursor: pointer;
+        outline: none;
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      src="https://sladigma.s3.amazonaws.com/arg/frederik/antwerp-intro.mp4"
+    ></video>
+    <button>Welcome to Antwerp!</button>
+    <script>
+      const button = document.querySelector("button");
+      const video = document.querySelector("video");
+      button.addEventListener("click", async () => {
+        button.style.opacity = 0;
+        setTimeout(() => {
+          video.play();
+          video.onended = () => {
+            document.location = "/white-rabbit.html";
+          };
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
