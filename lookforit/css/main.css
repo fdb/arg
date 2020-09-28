@@ -1,0 +1,49 @@
+body {
+  background: rgb(255, 251, 3);
+  margin: 0;
+}
+
+/* parent */
+img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+a {
+  cursor: pointer;
+}
+/* child */
+.btn1 {
+  position: absolute;
+  padding: 20px 80px;
+  top: 60px;
+  left: 430px;
+  box-shadow: 2px 2px 50px rgb(224, 190, 255);
+}
+
+.btn2 {
+  position: absolute;
+  padding: 20px 180px;
+  top: 180px;
+  left: 0px;
+  border: 10px groove rgb(255, 0, 255);
+  border-radius: 20px;
+}
+
+.btn3 {
+  position: absolute;
+  padding: 70px 100px;
+  top: 216px;
+  left: 770px;
+  border: 10px ridge rgb(170, 159, 235);
+}
+
+.btn4 {
+  position: absolute;
+  padding: 70px 70px;
+  top: 430px;
+  left: 110px;
+  border-radius: 50%;
+  border: 4px dotted rgb(0, 255, 191);
+}
