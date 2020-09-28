@@ -1,0 +1,60 @@
+body {
+  background: rgb(255, 3, 3);
+  margin: 0;
+}
+
+/* parent */
+img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+a {
+  cursor: pointer;
+}
+/* child */
+.btn1 {
+  position: absolute;
+  padding: 50px 200px;
+  top: 30px;
+  left: 220px;
+  border-radius: 30%;
+  box-shadow: 2px 2px 50px yellow;
+}
+
+.btn2 {
+  position: absolute;
+  padding: 20px 50px;
+  top: 545px;
+  left: 292px;
+  border: 10px groove rgb(229, 255, 0);
+  border-radius: 20px;
+}
+
+.btn3 {
+  position: absolute;
+  padding: 77px 77px;
+  top: 181px;
+  left: 1196px;
+  border-radius: 50%;
+  border: 5px dotted rgb(226, 3, 255);
+  box-shadow: 20px 20px 50px yellow;
+}
+
+.btn4 {
+  position: absolute;
+  padding: 70px 279px;
+  top: 690px;
+  left: 810px;
+  border: 10px double rgb(3, 247, 255);
+}
+
+.btn5 {
+  position: absolute;
+  padding: 107px 23px;
+  top: 674px;
+  left: 0px;
+  border-radius: 50%;
+  border: 4px dotted rgb(0, 255, 191);
+}
