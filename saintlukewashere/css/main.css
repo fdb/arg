@@ -1,0 +1,49 @@
+body {
+  background: violet;
+  margin: 0;
+}
+
+/* parent */
+img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+a {
+  cursor: pointer;
+}
+/* child */
+.btn1 {
+  position: absolute;
+  padding: 80px 300px;
+  top: 130px;
+  left: 600px;
+  border: 3px mix rgb(36, 255, 3);
+  box-shadow: 2px 2px 50px violet;
+}
+
+.btn2 {
+  position: absolute;
+  padding: 20px 50px;
+  top: 350px;
+  left: 649px;
+  border-radius: 50%;
+  border: 10px dotted rgb(64, 0, 255);
+}
+
+.btn3 {
+  position: absolute;
+  padding: 23px 89px;
+  top: 674px;
+  left: 634px;
+  border: 3px dashed rgb(226, 3, 255);
+}
+
+.btn4 {
+  position: absolute;
+  padding: 23px 107px;
+  top: 674px;
+  left: 835px;
+  border: 3px double rgb(3, 247, 255);
+}
