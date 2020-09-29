@@ -1,0 +1,42 @@
+body {
+  background-image: url(img/erinplakken.jpg);
+  background-repeat: repeat;
+
+  margin: 0 auto;
+  width: 800px;
+}
+
+header {
+  position: absolute;
+  width: 405px;
+  height: 83px;
+  left: 220px;
+  top: 41px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 102px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+
+  color: red;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  position: absolute;
+  width: 969px;
+  height: 3319px;
+  left: 92px;
+  top: 145px;
+
+  background: orange;
+  border: 3px solid red;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 43px;
+}
