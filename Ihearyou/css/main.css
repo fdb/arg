@@ -14,14 +14,6 @@ a {
   cursor: pointer;
 }
 /* child */
-.btn1 {
-  position: absolute;
-  padding: 50px 200px;
-  top: 30px;
-  left: 220px;
-  border-radius: 30%;
-  box-shadow: 2px 2px 50px yellow;
-}
 
 .btn2 {
   position: absolute;
@@ -48,13 +40,4 @@ a {
   top: 690px;
   left: 810px;
   border: 10px double rgb(3, 247, 255);
-}
-
-.btn5 {
-  position: absolute;
-  padding: 107px 23px;
-  top: 674px;
-  left: 0px;
-  border-radius: 50%;
-  border: 4px dotted rgb(0, 255, 191);
 }
