@@ -6,6 +6,26 @@
 body {
 }
 
+header nav {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+header nav a {
+  color: #eee;
+}
+
+header nav label {
+  color: #eee;
+}
+
+main {
+  border-top: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
