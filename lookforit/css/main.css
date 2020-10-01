@@ -14,36 +14,29 @@ a {
   cursor: pointer;
 }
 /* child */
-.btn1 {
-  position: absolute;
-  padding: 20px 80px;
-  top: 60px;
-  left: 430px;
-  box-shadow: 2px 2px 50px rgb(224, 190, 255);
-}
-
 .btn2 {
   position: absolute;
-  padding: 20px 180px;
-  top: 180px;
-  left: 0px;
-  border: 10px groove rgb(255, 0, 255);
+  padding: 20px 50px;
+  top: 545px;
+  left: 292px;
+  border: 10px groove rgb(229, 255, 0);
   border-radius: 20px;
 }
 
 .btn3 {
   position: absolute;
-  padding: 70px 100px;
-  top: 216px;
-  left: 770px;
-  border: 10px ridge rgb(170, 159, 235);
+  padding: 77px 77px;
+  top: 181px;
+  left: 1196px;
+  border-radius: 50%;
+  border: 5px dotted rgb(226, 3, 255);
+  box-shadow: 20px 20px 50px yellow;
 }
 
 .btn4 {
   position: absolute;
-  padding: 70px 70px;
-  top: 430px;
-  left: 110px;
-  border-radius: 50%;
-  border: 4px dotted rgb(0, 255, 191);
+  padding: 70px 279px;
+  top: 690px;
+  left: 810px;
+  border: 10px double rgb(3, 247, 255);
 }
