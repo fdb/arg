@@ -40,3 +40,60 @@ main {
   box-shadow: inset 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 43px;
 }
+
+/* Group 7 */
+
+.gallery .item a #websites {
+  position: absolute;
+  width: 292px;
+  height: 235px;
+  left: 217px;
+  top: 812px;
+}
+
+/* Group 4 */
+.gallery .item a #relics {
+  position: absolute;
+  width: 208px;
+  height: 222px;
+  left: 220px;
+  top: 526px;
+}
+
+/* Group 5 */
+.gallery .item a #instagram {
+  position: absolute;
+  width: 270px;
+  height: 222px;
+  left: 462px;
+  top: 526px;
+}
+
+/* Group 6 */
+.gallery .item a #audio {
+  position: absolute;
+  width: 155px;
+  height: 222px;
+  left: 766px;
+  top: 526px;
+}
+
+/* Group 2 */
+.gallery .item a #AR {
+  position: absolute;
+  width: 152px;
+  height: 235px;
+  left: 546px;
+  top: 240px;
+}
+
+/* Group 8 */
+.gallery .item a #posters {
+  position: absolute;
+  width: 152px;
+  height: 235px;
+  left: 543px;
+  top: 812px;
+}
+
+/* Group 3 */

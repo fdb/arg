@@ -1,2 +1,31 @@
-<h1>Bringing The Saint To Life</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>bringing-the-saint-to-life</title>
+  </head>
+  <body>
 
+  </head>
+  <body>
+    <video
+      src="https://sladigma.s3.amazonaws.com/arg/marijke/wc-zwart-gat.mp4"
+    ></video>
+    <button>Flush!</button>
+    <script>
+      const button = document.querySelector("button");
+      const video = document.querySelector("video");
+      button.addEventListener("click", async () => {
+        button.style.opacity = 0;
+        setTimeout(() => {
+          video.play();
+          video.onended = () => {
+            document.location = "/platform.html";
+          };
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>

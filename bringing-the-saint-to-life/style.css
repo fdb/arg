@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 20px serif;
+  min-height: 100vh;
+}
+video {
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+button {
+  color: #24d208;
+
+  padding: 20px;
+
+  font-size: 72px;
+  cursor: pointer;
+  outline: none;
+  transition: 1s;
+}
+
+.container {
+  color: #24d208;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
