@@ -1,0 +1,26 @@
+html {
+  background-color: black;
+  background-image: url("./img/lookforit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+#insta {
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  top: 635px;
+  left: 235px;
+}
+
+#egg {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 210px;
+  left: 805px;
+}
